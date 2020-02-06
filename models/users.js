@@ -4,8 +4,7 @@ const gameSchema = new mongoose.Schema({
 		type: String
 	},
 	gameid: {
-		type: mongoose.Schema.Types.ObjectId,
-		ref: 'Advertisement'
+		type: String
 	}
 });
 const userScheme = new mongoose.Schema(
